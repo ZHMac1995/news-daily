@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>重点人物历史言论</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans SC',sans-serif;background:#0d1117;color:#e6edf3;padding:20px;max-width:1000px;margin:auto}
+.entry-text{font-size:13px;line-height:1.8;color:#f0f6fc;word-break:break-word;padding:2px 0}
+.entry-text .person{color:#ff7b72;font-weight:600;font-size:13px}
+.entry-text .date{color:#58a6ff;font-weight:600}
+.entry-text .date.date-unknown{color:#d29922;font-weight:600}
+.entry-text .occasion{color:#7ee787;font-weight:500}
+.entry-text .quote{color:#e6edf3}
+.entry-text .meta{color:#8b949e;font-size:11px;display:inline-block;margin-left:8px}
+.entry{padding:10px 16px;margin-bottom:0;border-bottom:1px solid #21262d}
+.entry:last-child{border-bottom:none}
+.entry:hover{background:#0d1117;border-radius:0}
+.back{margin-bottom:16px}
+.back a{color:#58a6ff;text-decoration:none;font-size:14px}
+.back a:hover{text-decoration:underline}
+h1{font-size:22px;margin-bottom:8px;color:#f0f6fc}
+.subtitle{font-size:13px;color:#8b949e;margin-bottom:20px}
+.notice{background:#161b22;border-left:4px solid #1f6feb;padding:12px 16px;font-size:13px;color:#8b949e;border-radius:0 8px 8px 0;margin-bottom:20px;line-height:1.6;font-size:12px}
+.notice strong{color:#e6edf3}
+
+/* Tabs */
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.people-tab{padding:8px 16px;background:#161b22;border:1px solid #30363d;border-radius:20px;cursor:pointer;font-size:14px;color:#8b949e;transition:all .2s;user-select:none}
+.people-tab:hover{border-color:#58a6ff;color:#58a6ff}
+.people-tab.active{background:#1f6feb;color:#fff;border-color:#1f6feb}
+.people-tab .count{opacity:.7;margin-left:4px}
+
+/* Stats bar */
+.stats-bar{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px;min-height:24px}
+.stat-chip{font-size:11px;background:#161b22;padding:3px 8px;border-radius:10px;color:#8b949e;white-space:nowrap;border:1px solid #30363d}
+.stat-chip.total{color:#58a6ff;border-color:#1f6feb}
+
+/* Entry list — strict 时间|场合|原话 format */
+.entry-list{display:flex;flex-direction:column;gap:6px}
+.entry{background:#161b22;border-radius:8px;padding:12px 16px;border:1px solid #30363d;transition:border-color .2s}
+.entry:hover{border-color:#484f58}
+.entry-text .date{color:#58a6ff;font-weight:600}
+.entry-text .occasion{color:#7ee787;font-weight:500}
+.entry-text .quote{color:#e6edf3}
+.entry-text .meta{color:#8b949e;font-size:11px;display:inline-block;margin-left:8px}
+.entry{padding:10px 16px;margin-bottom:0;border-bottom:1px solid #21262d}
+.entry:last-child{border-bottom:none}
+.entry:hover{background:#161b22;border-radius:4px}
+.empty-state{text-align:center;padding:60px 20px;color:#484f58;font-size:14px}
+.footer-stats{text-align:center;font-size:11px;color:#484f58;margin-top:14px;padding-top:10px;border-top:1px solid #21262d}
+</style>
+</head>
+<body>
+
+<div class="back"><a href="index.html">← 返回看板</a></div>
+<h1>重点人物历史言论</h1>
+<div class="subtitle">数据时间: <span id="fetchTime">--</span></div>
+
+<div class="notice">
+  <strong>格式</strong>：📅 日期｜🎤 场合｜💬 原话（带引号）
+  <span style="float:right;color:#484f58">黄仁勋 v8 | 言论优先过滤</span>
+</div>
+
+<div class="tabs" id="peopleTabs"></div>
+<div class="stats-bar" id="statsBar"></div>
+<div class="entry-list" id="entryList"></div>
+
+<script>
+async function loadData(){
+  try{
+    const resp = await fetch('people_statements.json');
+    const data = await resp.json();
+    render(data);
+  }catch(e){
+    document.getElementById('entryList').innerHTML =
+      '<div class="empty-state">数据加载失败</div>';
+  }
+}
+
+function render(data){
+  const people = data.people || {};
+  document.getElementById('fetchTime').textContent = data.fetched_at || '--';
+
+  const names = Object.keys(people);
+  const order = ['黄仁勋','马斯克','孙宇晨','斯科特·贝森特','凯文·沃什','特朗普','瑞达里欧'];
+  const sorted = order.filter(n => names.includes(n));
+  sorted.push(...names.filter(n => !order.includes(n)));
+
+  let activeTab = localStorage.getItem('people_active_tab') || sorted[0] || '';
+
+  const tabsEl = document.getElementById('peopleTabs');
+  tabsEl.innerHTML = sorted.map(name => {
+    const p = people[name];
+    const total = p ? p.total : 0;
+    const active = name === activeTab ? ' active' : '';
+    return '<div class="people-tab' + active + '" data-person="' + name + '">' + name + ' <span class="count">' + total + '条</span></div>';
+  }).join('');
+
+  document.querySelectorAll('.people-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.people-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      const person = tab.dataset.person;
+      localStorage.setItem('people_active_tab', person);
+      renderPerson(people[person] || {}, person);
+    });
+  });
+
+  if(people[activeTab]) renderPerson(people[activeTab], activeTab);
+  else if(sorted.length > 0 && people[sorted[0]]) renderPerson(people[sorted[0]]);
+}
+
+function renderPerson(p, personName){
+  if(!personName) personName = '黄仁勋';
+  const entries = p.entries || [];
+  
+  // 来源统计（最终保留的实际分布）
+  const statsBar = document.getElementById('statsBar');
+  if(entries.length === 0){
+    statsBar.innerHTML = '';
+    document.getElementById('entryList').innerHTML = '<div class="empty-state">暂无数据</div>';
+    return;
+  }
+  
+  const srcCount = {};
+  entries.forEach(e => {
+    let s = e.source || '未知';
+    if(s.startsWith('TradeAlpha-')) s = 'TA-' + s.replace('TradeAlpha-','');
+    srcCount[s] = (srcCount[s] || 0) + 1;
+  });
+  statsBar.innerHTML = Object.entries(srcCount)
+    .sort((a,b) => b[1]-a[1])
+    .map(([k,v]) => '<span class="stat-chip">' + k + ': ' + v + '条</span>')
+    .join('') + '<span class="stat-chip total">合计: ' + entries.length + '条</span>';
+
+  // 引语比例
+  const quoteCount = entries.filter(e => e.quotes && e.quotes.length > 0).length;
+
+  const listEl = document.getElementById('entryList');
+  listEl.innerHTML = entries.map(e => {
+    const date = e.date || e.published_at || '--';
+    const headline = e.headline || e.title || '';
+    const content = e.content || '';
+    const quotes = e.quotes || [];
+    let occasion = e.occasion || '';
+    if(!occasion){
+      occasion = inferOccasion(headline, content);
+    }
+
+    // 时间格式化：2026-06-01 → 2026年6月1日
+    const formattedDate = formatDate(date);
+    const isDateUnknown = (formattedDate === '日期不详');
+
+    // 来源短标记
+    let s = e.source || '';
+    if(s.startsWith('TradeAlpha-')) s = s.replace('TradeAlpha-', 'TA-');
+
+    // 严格格式：时间 | XXX在[场合]中表示：XXXX
+    let textHtml = '';
+    if(quotes && quotes.length > 0){
+      textHtml = '<span class="date' + (isDateUnknown ? ' date-unknown' : '') + '">' + escapeHtml(formattedDate) + '</span>' +
+        ' | ' + 
+        '<span class="person">' + escapeHtml(personName) + '</span>' +
+        '在' +
+        '<span class="occasion">' + escapeHtml(occasion || '接受媒体采访时') + '</span>' +
+        '中表示：' +
+        '<span class="quote">' + escapeHtml(quotes[0]) + '</span>' +
+        '<span class="meta">[' + escapeHtml(s) + ']</span>';
+    } else {
+      var fb = e.headline || content || '';
+      textHtml = '<span class="date' + (isDateUnknown ? ' date-unknown' : '') + '">' + escapeHtml(formattedDate) + '</span>' +
+        ' | ' + 
+        '<span class="person">' + escapeHtml(personName) + '</span>' +
+        '在' +
+        '<span class="occasion">' + escapeHtml(occasion || '接受媒体采访时') + '</span>' +
+        '中表示：' +
+        '<span class="quote" style="color:#8b949e">' + escapeHtml(fb.slice(0,200)) + '</span>' +
+        '<span class="meta">[' + escapeHtml(s) + ']</span>';
+    }
+
+    return '<div class="entry"><div class="entry-text">' + textHtml + '</div></div>';
+  }).join('');
+
+  // footer
+  const footer = document.createElement('div');
+  footer.className = 'footer-stats';
+  footer.textContent = '共' + entries.length + '条 | ' + quoteCount + '条含直接引语' + 
+    (entries.length > 0 ? ' | 最新: ' + (entries[0].date || '无日期') : '');
+  listEl.parentNode.insertBefore(footer, listEl.nextSibling);
+  // Remove old footer
+  const old = listEl.parentNode.querySelector('.footer-stats');
+  const all = listEl.parentNode.querySelectorAll('.footer-stats');
+  if(all.length > 1) all[0].remove();
+}
+
+function formatDate(d){
+  if(!d || d === '--') return '--';
+  // 2026-06-01 → 2026年6月1日
+  const m = d.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if(m) return m[1] + '年' + parseInt(m[2]) + '月' + parseInt(m[3]) + '日';
+  // 2026/06/01
+  const m2 = d.match(/^(\d{4})\/(\d{2})\/(\d{2})/);
+  if(m2) return m2[1] + '年' + parseInt(m2[2]) + '月' + parseInt(m2[3]) + '日';
+  return d;
+}
+
+function inferOccasion(headline, content){
+  const txt = (headline + ' ' + content);
+  if(!txt) return '';
+  // === 场合推断：按优先级匹配 ===
+  if(txt.includes('GTC大会') || txt.includes('GTC 2026')) return 'GTC大会上发表演讲时';
+  if(txt.includes('世界政府峰会')) return '世界政府峰会上发表演讲时';
+
+  // 毕业典礼
+  var uniMatch = txt.match(/在([^，,。]{2,8}(?:大学|学院))毕业/);
+  if(uniMatch) return uniMatch[1] + '的毕业典礼上发表演讲时';
+  if(txt.includes('毕业典礼')) return '大学毕业典礼上发表演讲时';
+  if(txt.includes('毕业生') || txt.includes('毕业')) return '大学毕业典礼上发表演讲时';
+
+  // 合作
+  var coopMatch = txt.match(/与(.{2,8})(?:合作|联手|携手)/);
+  if(coopMatch){
+    var p = coopMatch[1];
+    if(p.indexOf('英伟达') >= 0) return '合作发布会上';
+    return '英伟达与' + p + '的合作发布会上';
+  }
+
+  // 发布
+  if(txt.includes('DSX')) return '英伟达发布NVIDIA DSX平台时';
+  var launchMatch = txt.match(/(?:推出|发布)(.{2,16})/);
+  if(launchMatch) return '发布' + launchMatch[1] + '时';
+  if(txt.includes('推出') || txt.includes('发布') || txt.includes('宣布')) return '产品发布会上';
+
+  // 财报/投资者日
+  if(txt.includes('财报') || txt.includes('电话会')) return '财报电话会议上';
+  if(txt.includes('投资者日')) return '投资者日活动上';
+
+  // 圆桌/论坛/峰会
+  if(txt.includes('圆桌')) return '圆桌讨论会上';
+  if(txt.includes('论坛')) return '行业论坛上';
+  if(txt.includes('峰会')) return '行业峰会上';
+
+  // 特定媒体
+  if(txt.includes('彭博')) return '彭博社的专访中';
+  if(txt.includes('CNBC')) return 'CNBC的独家采访中';
+  if(txt.includes('华尔街日报') || txt.includes('WSJ')) return '华尔街日报的专访中';
+
+  // 翻到底部时推断source（这里的e是从外部闭包传递的）
+  return '接受媒体采访时';
+}
+
+function escapeHtml(s){
+  if(!s) return '';
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+          .replace(/"/g,'&quot;').replace(/\n/g,' ');
+}
+
+loadData();
+</script>
+</body>
+</html>
