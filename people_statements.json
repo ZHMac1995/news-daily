@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-03 18:00:54",
+  "fetched_at": "2026-06-03 18:07:44",
   "people": {
     "特朗普": {
       "en_name": "Trump",
@@ -15,8 +15,32 @@
         "360新闻": 10,
         "今日头条": 0
       },
-      "total": 8,
+      "total": 15,
       "entries": [
+        {
+          "headline": "市场冲高回落 特朗普关税又来了！CPO、光纤概念股延续强势",
+          "content": "市场冲高回落 特朗普关税又来了！CPO、光纤概念股延续强势",
+          "source": "东方财富首页",
+          "date": "日期不详",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "“罗生门”再现！伊方曝信息交换“已暂停数日” 特朗普坚称对话持续进行",
+          "content": "“罗生门”再现！伊方曝信息交换“已暂停数日” 特朗普坚称对话持续进行",
+          "source": "东方财富首页",
+          "date": "日期不详",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "中东突传大消息 美伊开火！特朗普发声！油价直线拉升！",
+          "content": "中东突传大消息 美伊开火！特朗普发声！油价直线拉升！",
+          "source": "东方财富首页",
+          "date": "日期不详",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
         {
           "headline": "特朗普：一周内与伊朗达成协议",
           "content": "特朗普：一周内与伊朗达成协议",
@@ -26,6 +50,22 @@
             "一周内与伊朗达成协议 特朗普：一周内与伊朗达成协议"
           ],
           "occasion": "媒体采访"
+        },
+        {
+          "headline": "特朗普和内塔尼亚胡撕破脸，伊朗伺机在海湾展开打击行动",
+          "content": "特朗普和内塔尼亚胡撕破脸，伊朗伺机在海湾展开打击行动",
+          "source": "界面新闻",
+          "date": "日期不详",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "美伊谈判继续拉扯，特朗普自称一周内达成协议、“抵抗之弧”成牵制因素",
+          "content": "美伊谈判继续拉扯，特朗普自称一周内达成协议、“抵抗之弧”成牵制因素",
+          "source": "界面新闻",
+          "date": "日期不详",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
         },
         {
           "headline": "特朗普签署\"妥协版\"AI模型审查行政令",
@@ -39,10 +79,39 @@
           "occasion": "媒体采访"
         },
         {
+          "headline": "地产商治国?\"小特朗普\"将任代理国家情报总监",
+          "content": "地产商治国?\"小特朗普\"将任代理国家情报总监",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://finance.sina.com.cn/wm/2026-06-03/doc-iniacnun2416408.shtml",
+          "quotes": [
+            "将任代理国家情报总监 地产商治国?"
+          ],
+          "occasion": "媒体采访"
+        },
+        {
+          "headline": "特朗普政府提议加征关税 中方:关税战、贸易战不符合任何一方利益",
+          "content": "特朗普政府提议加征关税 中方:关税战、贸易战不符合任何一方利益",
+          "source": "360新闻",
+          "date": "日期不详",
+          "url": "https://www.chinanews.com/gn/2026/06-03/10633613.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "伯尼·桑德斯称特朗普终于承认人工智能风险真实存在,警告行政命令...",
+          "content": "伯尼·桑德斯称特朗普终于承认人工智能风险真实存在,警告行政命令...",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://finance.sina.com.cn/stock/usstock/summary/2026-06-03/doc-iniacnus0934336.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
           "headline": "综合消息丨美伊再次相互打击 特朗普否认谈判暂停",
           "content": "综合消息丨美伊再次相互打击 特朗普否认谈判暂停",
           "source": "360新闻",
-          "date": "2026-06-03",
+          "date": "日期不详",
           "url": "https://world.people.com.cn/n1/2026/0603/c1002-40733240.html",
           "_no_quotes": true,
           "occasion": "媒体采访时"
@@ -68,31 +137,20 @@
           "occasion": "媒体采访时"
         },
         {
-          "headline": "特朗普任命联邦住房金融署署长为代理国家情报总监",
-          "content": "特朗普任命联邦住房金融署署长为代理国家情报总监",
+          "headline": "特朗普的新关税壁垒:药品价格百分百上涨,美国家庭面临700美元支出...",
+          "content": "特朗普的新关税壁垒:药品价格百分百上涨,美国家庭面临700美元支出...",
           "source": "360新闻",
           "date": "2026-06-03",
-          "url": "https://world.people.com.cn/n1/2026/0603/c1002-40733009.html",
+          "url": "https://finance.sina.com.cn/stock/usstock/summary/2026-06-03/doc-iniacnuq4119756.shtml",
           "_no_quotes": true,
           "occasion": "媒体采访时"
         },
         {
-          "headline": "特朗普还是签了,曾忧心\"让中国领先\"",
-          "content": "特朗普还是签了,曾忧心\"让中国领先\"",
+          "headline": "特朗普任命联邦住房金融署署长为代理国家情报总监",
+          "content": "特朗普任命联邦住房金融署署长为代理国家情报总监",
           "source": "360新闻",
-          "date": "2026-06-03",
-          "url": "https://finance.sina.com.cn/wm/2026-06-03/doc-iniacaes2521328.shtml",
-          "quotes": [
-            "特朗普还是签了,曾忧心"
-          ],
-          "occasion": "媒体采访"
-        },
-        {
-          "headline": "特朗普否认美伊对话已暂停数日",
-          "content": "特朗普否认美伊对话已暂停数日",
-          "source": "360新闻",
-          "date": "2026-06-03",
-          "url": "http://www.xinhuanet.com/20260603/22bceca1a31b415b94a441327cc4a042/c.html",
+          "date": "日期不详",
+          "url": "https://world.people.com.cn/n1/2026/0603/c1002-40733009.html",
           "_no_quotes": true,
           "occasion": "媒体采访时"
         }
@@ -112,8 +170,105 @@
         "360新闻": 10,
         "今日头条": 0
       },
-      "total": 1,
+      "total": 12,
       "entries": [
+        {
+          "headline": "直线拉升！马斯克重磅消息！商业航天概念股异动",
+          "content": "直线拉升！马斯克重磅消息！商业航天概念股异动",
+          "source": "东方财富首页",
+          "date": "日期不详",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "午后直线拉升！马斯克传来重磅消息！A股商业航天概念股异动",
+          "content": "午后直线拉升！马斯克传来重磅消息！A股商业航天概念股异动",
+          "source": "东方财富首页",
+          "date": "日期不详",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "全球首富马斯克平均每秒入账992美元",
+          "content": "全球首富马斯克平均每秒入账992美元",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-03/doc-iniacnuq4134358.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "你应该投资太空探索技术公司(SpaceX)吗?历史对投资埃隆·马斯克...",
+          "content": "你应该投资太空探索技术公司(SpaceX)吗?历史对投资埃隆·马斯克...",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://finance.sina.com.cn/stock/usstock/summary/2026-06-03/doc-iniacnus0924528.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "午后,直线拉升!马斯克,传来重磅消息!",
+          "content": "午后,直线拉升!马斯克,传来重磅消息!",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://finance.sina.com.cn/roll/2026-06-03/doc-iniachnr0921681.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "埃隆·马斯克SpaceX首位雇员汤姆·米勒的冲动太空公司获5亿美元...",
+          "content": "埃隆·马斯克SpaceX首位雇员汤姆·米勒的冲动太空公司获5亿美元...",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://finance.sina.com.cn/stock/usstock/summary/2026-06-03/doc-iniacaew1040838.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "每小时赚2400万元,准万亿富翁马斯克的财富有多夸张?",
+          "content": "每小时赚2400万元,准万亿富翁马斯克的财富有多夸张?",
+          "source": "360新闻",
+          "date": "日期不详",
+          "url": "https://tech.ifeng.com/c/8teMUrnsqLa",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "马斯克旗下SpaceX上市计划调整引发158亿美元热潮,特斯拉成交易榜首",
+          "content": "马斯克旗下SpaceX上市计划调整引发158亿美元热潮,特斯拉成交易榜首",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://finance.sina.com.cn/stock/usstock/summary/2026-06-03/doc-iniaavwy1045750.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "SpaceX 上市会让埃隆·马斯克成为万亿富翁吗?",
+          "content": "SpaceX 上市会让埃隆·马斯克成为万亿富翁吗?",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://finance.sina.com.cn/stock/usstock/summary/2026-06-03/doc-iniaavwy1037119.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "福布斯6月全球十大富豪榜:马斯克个人财富即将突破万亿美元",
+          "content": "福布斯6月全球十大富豪榜:马斯克个人财富即将突破万亿美元",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-06-03/doc-iniaarqw2584267.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "马斯克关联空壳公司在休斯顿郊外购地 550亿美元芯片厂或落地于此",
+          "content": "马斯克关联空壳公司在休斯顿郊外购地 550亿美元芯片厂或落地于此",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-03/doc-inhzzytf1332640.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
         {
           "headline": "马斯克向全球招\"中文AI导师\" 不设固定上班时间",
           "content": "马斯克向全球招\"中文AI导师\" 不设固定上班时间",
@@ -141,18 +296,45 @@
         "360新闻": 10,
         "今日头条": 0
       },
-      "total": 4,
+      "total": 10,
       "entries": [
         {
           "headline": "孙宇晨:B.AI破解AI时代金融协作困局",
           "content": "孙宇晨:B.AI破解AI时代金融协作困局",
           "source": "360新闻",
-          "date": "2026-06-02",
+          "date": "日期不详",
           "url": "https://k.sina.com.cn/article_7857201856_1d45362c001906aqws.html",
           "quotes": [
             "B.AI破解AI时代金融协作困局 孙宇晨:B.AI破解AI时代金融协作困局"
           ],
           "occasion": "媒体采访"
+        },
+        {
+          "headline": "孙宇晨10亿美金押注物理AI:币圈上岸还是科技叙事的卡位",
+          "content": "孙宇晨10亿美金押注物理AI:币圈上岸还是科技叙事的卡位",
+          "source": "360新闻",
+          "date": "2026-05-22",
+          "url": "https://finance.sina.com.cn/wm/2026-05-22/doc-inhytyyn8527014.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "五一视界午前涨逾30% 孙宇晨押注物理AI引发市场高度关注",
+          "content": "五一视界午前涨逾30% 孙宇晨押注物理AI引发市场高度关注",
+          "source": "360新闻",
+          "date": "2026-05-18",
+          "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-05-18/doc-inhyhuhq0772000.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "孙宇晨都开始吹存储!全球存储疯涨,1500亿佰维存储还要去港股IPO",
+          "content": "孙宇晨都开始吹存储!全球存储疯涨,1500亿佰维存储还要去港股IPO",
+          "source": "360新闻",
+          "date": "2026-05-14",
+          "url": "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxwviy8533051.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
         },
         {
           "headline": "孙宇晨与特朗普家族\"炒\"币吵上法庭 投资机构表态愿出面调解",
@@ -169,7 +351,7 @@
           "headline": "孙宇晨起诉WLFI有续集:有机构愿意帮助庭外和解",
           "content": "孙宇晨起诉WLFI有续集:有机构愿意帮助庭外和解",
           "source": "360新闻",
-          "date": "2026-04-23 12:57",
+          "date": "日期不详",
           "url": "https://www.360kuai.com/pc/9b08329f14a893aaf?cota=3&kuai_so=1&refer_scene=so_3&sign=360_da20e874",
           "_no_quotes": true,
           "occasion": "媒体采访时"
@@ -180,6 +362,33 @@
           "source": "360新闻",
           "date": "2026-04-22",
           "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-22/doc-inhvkqha6121627.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "孙宇晨起诉特朗普家族加密项目WLF:指控代币遭非法冻结与销毁威胁",
+          "content": "孙宇晨起诉特朗普家族加密项目WLF:指控代币遭非法冻结与销毁威胁",
+          "source": "360新闻",
+          "date": "2026-04-22",
+          "url": "https://finance.sina.com.cn/stock/t/2026-04-22/doc-inhvkcsa5594059.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "孙宇晨起诉特朗普关联加密项目,指控敲诈勒索",
+          "content": "孙宇晨起诉特朗普关联加密项目,指控敲诈勒索",
+          "source": "360新闻",
+          "date": "2026-04-22",
+          "url": "https://news.qq.com/rain/a/20260422A04N5E00?adChannelId=finance",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "孙宇晨起诉特朗普家族的世界自由金融公司",
+          "content": "孙宇晨起诉特朗普家族的世界自由金融公司",
+          "source": "360新闻",
+          "date": "2026-04-22",
+          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-22/doc-inhvixkn4413256.shtml",
           "_no_quotes": true,
           "occasion": "媒体采访时"
         }
@@ -199,8 +408,41 @@
         "360新闻": 10,
         "今日头条": 0
       },
-      "total": 4,
+      "total": 12,
       "entries": [
+        {
+          "headline": "国台办回应黄仁勋涉台言论：缺电已成台湾发展软肋",
+          "content": "国台办回应黄仁勋涉台言论：缺电已成台湾发展软肋",
+          "source": "新浪财经首页",
+          "date": "日期不详",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "大涨！黄仁勋再次点燃光通信概念股",
+          "content": "大涨！黄仁勋再次点燃光通信概念股",
+          "source": "东方财富首页",
+          "date": "日期不详",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "全面爆发！黄仁勋一句话 Marvell创最大单日涨幅",
+          "content": "全面爆发！黄仁勋一句话 Marvell创最大单日涨幅",
+          "source": "东方财富首页",
+          "date": "日期不详",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "黄仁勋一句话价值600亿美元!Marvell股价暴涨超32% 网红:不敢买光...",
+          "content": "黄仁勋一句话价值600亿美元!Marvell股价暴涨超32% 网红:不敢买光...",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://finance.sina.cn/tech/2026-06-03/detail-iniacaet0975888.d.html",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
         {
           "headline": "黄仁勋:英伟达产能充足保交付,PC芯片新品及迭代路线落地",
           "content": "黄仁勋:英伟达产能充足保交付,PC芯片新品及迭代路线落地",
@@ -211,6 +453,33 @@
             "英伟达产能充足保交付,PC芯片新品及迭代路线落地 黄仁勋:英伟达产能充足保交付,PC芯片新品及迭代路线落地"
           ],
           "occasion": "媒体采访"
+        },
+        {
+          "headline": "海量财经|黄仁勋一句话点燃CPO概念:中际旭创股价超茅台,联讯仪器...",
+          "content": "海量财经|黄仁勋一句话点燃CPO概念:中际旭创股价超茅台,联讯仪器...",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://www.dzwww.com/xinwen/jjxw/202606/t20260603_17802444.htm",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "黄仁勋COMPUTEX预言光通信爆发,人工智能ETF易方达走强",
+          "content": "黄仁勋COMPUTEX预言光通信爆发,人工智能ETF易方达走强",
+          "source": "360新闻",
+          "date": "日期不详",
+          "url": "https://www.360kuai.com/pc/923cc4c4fafd96039?cota=3&kuai_so=1&refer_scene=so_3&sign=360_da20e874",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "黄仁勋首谈在北京喝豆汁体验:你们不知道我有多享受",
+          "content": "黄仁勋首谈在北京喝豆汁体验:你们不知道我有多享受",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-06-03/doc-iniachnq2447981.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
         },
         {
           "headline": "黄仁勋:别等了!英伟达暂不做RTX Spark掌机,全力押注AI PC重塑",
@@ -224,17 +493,6 @@
           "occasion": "媒体采访"
         },
         {
-          "headline": "黄仁勋\"钦点\"下一家万亿美元公司;科创半导体ETF华夏(588170)...",
-          "content": "黄仁勋\"钦点\"下一家万亿美元公司;科创半导体ETF华夏(588170)...",
-          "source": "360新闻",
-          "date": "2026-06-03",
-          "url": "https://www.360kuai.com/pc/9022072a3870ae0fd?cota=3&kuai_so=1&refer_scene=so_3&sign=360_da20e874",
-          "quotes": [
-            "下一家万亿美元公司;科创半导体ETF华夏(588170)... 黄仁勋"
-          ],
-          "occasion": "媒体采访"
-        },
-        {
           "headline": "黄仁勋:铜缆在AI连接中不可替代!铜缆高速连接概念股涨停!华宝基金...",
           "content": "黄仁勋:铜缆在AI连接中不可替代!铜缆高速连接概念股涨停!华宝基金...",
           "source": "360新闻",
@@ -242,6 +500,26 @@
           "url": "https://finance.sina.com.cn/money/fund/etf/2026-06-03/doc-iniachnr0896566.shtml",
           "quotes": [
             "铜缆在AI连接中不可替代!铜缆高速连接概念股涨停!华宝基金... 黄仁勋:铜缆在AI连接中不可替代!铜缆高速连接概念股涨停!华宝基金..."
+          ],
+          "occasion": "媒体采访"
+        },
+        {
+          "headline": "黄仁勋联手王兴兴,机器人如何进化",
+          "content": "黄仁勋联手王兴兴,机器人如何进化",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://zjnews.zjol.com.cn/zjnews/202606/t20260603_31701297.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "黄仁勋点名:\"下一家万亿美元公司\"!一句话引爆→",
+          "content": "黄仁勋点名:\"下一家万亿美元公司\"!一句话引爆→",
+          "source": "360新闻",
+          "date": "2026-06-02",
+          "url": "https://news.cnr.cn/native/gd/20260602/t20260602_527645197.shtml",
+          "quotes": [
+            "!一句话引爆→ 黄仁勋点名:"
           ],
           "occasion": "媒体采访"
         }
@@ -261,7 +539,7 @@
         "360新闻": 10,
         "今日头条": 0
       },
-      "total": 4,
+      "total": 10,
       "entries": [
         {
           "headline": "CoinGapeMedia 2026年5月30日消息:美财长斯科特·贝森特称,美国...",
@@ -275,11 +553,65 @@
           "occasion": "媒体采访"
         },
         {
+          "headline": "斯科特·贝森特",
+          "content": "斯科特·贝森特",
+          "source": "360新闻",
+          "date": "日期不详",
+          "url": "https://money.163.com/keywords/6/a/65af79d1727900b78d1d68ee7279/1.html",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "财政部长斯科特·贝森特:将讨论全球经济、全球失衡以及关键矿产...",
+          "content": "财政部长斯科特·贝森特:将讨论全球经济、全球失衡以及关键矿产...",
+          "source": "360新闻",
+          "date": "2026-05-18",
+          "url": "https://www.fx678.com/C/20260518/202605181456019089.html",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "财政部长斯科特·贝森特:将呼吁七国集团遵守制裁制度,切断伊朗战争...",
+          "content": "财政部长斯科特·贝森特:将呼吁七国集团遵守制裁制度,切断伊朗战争...",
+          "source": "360新闻",
+          "date": "2026-05-18",
+          "url": "https://www.fx678.com/C/20260518/202605181454369089.html",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "...认为跌幅可能受到控制,关键因素在于美国财政部长斯科特·贝森特是否",
+          "content": "...认为跌幅可能受到控制,关键因素在于美国财政部长斯科特·贝森特是否",
+          "source": "360新闻",
+          "date": "2026-01-27",
+          "url": "https://www.fx678.com/C/20260127/202601270744492462.html",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
           "headline": "美国财政部长斯科特·贝森特表示本周将再进行一或两次美联储下任...",
           "content": "美国财政部长斯科特·贝森特表示本周将再进行一或两次美联储下任...",
           "source": "360新闻",
           "date": "2025-12-17",
           "url": "https://www.fx678.com/C/20251217/202512170445061121.html",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "哈塞特表示 他认为斯科特·贝森特是美联储主席人选的首选",
+          "content": "哈塞特表示 他认为斯科特·贝森特是美联储主席人选的首选",
+          "source": "360新闻",
+          "date": "2025-12-09",
+          "url": "https://finance.eastmoney.com/a/202512093586768966.html",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "...财政部长官具润哲将于15日赴美会见美国财政部部长斯科特·贝森特。",
+          "content": "...财政部长官具润哲将于15日赴美会见美国财政部部长斯科特·贝森特。",
+          "source": "360新闻",
+          "date": "2025-10-12",
+          "url": "https://www.fx678.com/C/20251012/202510121612022060.html",
           "_no_quotes": true,
           "occasion": "媒体采访时"
         },
@@ -317,14 +649,41 @@
         "360新闻": 4,
         "今日头条": 0
       },
-      "total": 1,
+      "total": 4,
       "entries": [
+        {
+          "headline": "《实习医生格蕾》衍生剧获ABC预订,27年首播",
+          "content": "《实习医生格蕾》衍生剧获ABC预订,27年首播",
+          "source": "360新闻",
+          "date": "日期不详",
+          "url": "https://www.163.com/dy/article/KTD6LJQF0556CE2R.html",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
         {
           "headline": "沃什首秀前夕非农出炉 美债市场加息押注迎来重磅检验",
           "content": "沃什首秀前夕非农出炉 美债市场加息押注迎来重磅检验",
           "source": "360新闻",
           "date": "2026-06-01",
           "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-06-01/doc-inhzwisr8508163.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "爱泼斯坦案搅动欧美政坛,英国首相斯塔默拒绝因前驻美大使涉案而辞职",
+          "content": "爱泼斯坦案搅动欧美政坛,英国首相斯塔默拒绝因前驻美大使涉案而辞职",
+          "source": "360新闻",
+          "date": "日期不详",
+          "url": "https://www.jiemian.com/article/13998798.html",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "爱泼斯坦案持续发酵,搅动多国政坛!白宫称特朗普不会赦免爱泼斯坦...",
+          "content": "爱泼斯坦案持续发酵,搅动多国政坛!白宫称特朗普不会赦免爱泼斯坦...",
+          "source": "360新闻",
+          "date": "日期不详",
+          "url": "https://www.163.com/dy/article/KLD2TOOO0512B07B.html",
           "_no_quotes": true,
           "occasion": "媒体采访时"
         }
@@ -344,14 +703,23 @@
         "360新闻": 10,
         "今日头条": 0
       },
-      "total": 7,
+      "total": 10,
       "entries": [
         {
           "headline": "瑞达利欧预警:美债、地缘、AI泡沫,三场风暴正在合力",
           "content": "瑞达利欧预警:美债、地缘、AI泡沫,三场风暴正在合力",
           "source": "360新闻",
-          "date": "2026-05-07",
+          "date": "日期不详",
           "url": "https://k.sina.com.cn/article_5953190046_162d6789e0670338ce.html",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "美国财长贝森特:猜测瑞达利欧将对Trump Accounts出资大约1亿美元",
+          "content": "美国财长贝森特:猜测瑞达利欧将对Trump Accounts出资大约1亿美元",
+          "source": "360新闻",
+          "date": "2025-12-18",
+          "url": "http://stock.10jqka.com.cn/20251218/c673296576.shtml",
           "_no_quotes": true,
           "occasion": "媒体采访时"
         },
@@ -408,6 +776,24 @@
           "source": "360新闻",
           "date": "2026-06-23",
           "url": "https://www.360kuai.com/pc/9a6c9e0cc0b56e980?cota=3&kuai_so=1&refer_scene=so_3&sign=360_da20e874",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "创业板指跌1.96%,市场成交额续创历史纪录",
+          "content": "创业板指跌1.96%,市场成交额续创历史纪录",
+          "source": "360新闻",
+          "date": "2026-01-13",
+          "url": "https://finance.sina.com.cn/roll/2026-01-13/doc-inhhcxit9206317.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "瑞达期货:瑞达转债预计触发赎回条件",
+          "content": "瑞达期货:瑞达转债预计触发赎回条件",
+          "source": "360新闻",
+          "date": "日期不详",
+          "url": "https://www.163.com/dy/article/KH091VF50519QIKK.html",
           "_no_quotes": true,
           "occasion": "媒体采访时"
         }
