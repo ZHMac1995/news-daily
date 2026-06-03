@@ -1,0 +1,462 @@
+{
+  "fetched_at": "2026-06-03 17:38:09",
+  "people": {
+    "特朗普": {
+      "en_name": "Trump",
+      "path_stats": {
+        "TradeAlpha": 0,
+        "第一财经": 0,
+        "新浪搜索": 0,
+        "东方财富搜索": 0,
+        "新浪财经首页": 0,
+        "东方财富首页": 4,
+        "界面新闻首页": 2,
+        "俄罗斯卫星通讯社首页": 0,
+        "360新闻": 10,
+        "今日头条": 0
+      },
+      "total": 10,
+      "entries": [
+        {
+          "headline": "“罗生门”再现！伊方曝信息交换“已暂停数日” 特朗普坚称对话持续进行",
+          "content": "“罗生门”再现！伊方曝信息交换“已暂停数日” 特朗普坚称对话持续进行",
+          "source": "东方财富首页",
+          "date": "日期不详",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "中东突传大消息 美伊开火！特朗普发声！油价直线拉升！",
+          "content": "中东突传大消息 美伊开火！特朗普发声！油价直线拉升！",
+          "source": "东方财富首页",
+          "date": "日期不详",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "特朗普：一周内与伊朗达成协议",
+          "content": "特朗普：一周内与伊朗达成协议",
+          "source": "东方财富首页",
+          "date": "日期不详",
+          "quotes": [
+            "一周内与伊朗达成协议 特朗普：一周内与伊朗达成协议"
+          ],
+          "occasion": "媒体采访"
+        },
+        {
+          "headline": "特朗普签署\"妥协版\"AI模型审查行政令",
+          "content": "特朗普签署\"妥协版\"AI模型审查行政令",
+          "source": "360新闻",
+          "date": "日期不详",
+          "url": "http://intl.ce.cn/qqss/202606/t20260603_3008385.shtml",
+          "quotes": [
+            "AI模型审查行政令 特朗普签署"
+          ],
+          "occasion": "媒体采访"
+        },
+        {
+          "headline": "综合消息丨美伊再次相互打击 特朗普否认谈判暂停",
+          "content": "综合消息丨美伊再次相互打击 特朗普否认谈判暂停",
+          "source": "360新闻",
+          "date": "日期不详",
+          "url": "https://world.people.com.cn/n1/2026/0603/c1002-40733240.html",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "\"特朗普账户\"App上线:美国新生儿每人可获1000美元,强制投向标普...",
+          "content": "\"特朗普账户\"App上线:美国新生儿每人可获1000美元,强制投向标普...",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://finance.sina.com.cn/wm/2026-06-03/doc-iniacnup0842812.shtml",
+          "quotes": [
+            "App上线:美国新生儿每人可获1000美元,强制投向标普..."
+          ],
+          "occasion": "媒体采访"
+        },
+        {
+          "headline": "消息人士:特朗普施压伊朗要求作出更明确的核承诺",
+          "content": "消息人士:特朗普施压伊朗要求作出更明确的核承诺",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-03/doc-iniachnr0953814.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "白宫记协晚宴改期至7月特朗普称计划出席",
+          "content": "白宫记协晚宴改期至7月特朗普称计划出席",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://news.cctv.com/2026/06/03/ARTIY1CMSBbGGQeQ5J9x0Zta260603.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "特朗普任命联邦住房金融署署长为代理国家情报总监",
+          "content": "特朗普任命联邦住房金融署署长为代理国家情报总监",
+          "source": "360新闻",
+          "date": "日期不详",
+          "url": "https://world.people.com.cn/n1/2026/0603/c1002-40733009.html",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "特朗普还是签了,曾忧心\"让中国领先\"",
+          "content": "特朗普还是签了,曾忧心\"让中国领先\"",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://finance.sina.com.cn/wm/2026-06-03/doc-iniacaes2521328.shtml",
+          "quotes": [
+            "特朗普还是签了,曾忧心"
+          ],
+          "occasion": "媒体采访"
+        }
+      ]
+    },
+    "马斯克": {
+      "en_name": "Elon Musk",
+      "path_stats": {
+        "TradeAlpha": 0,
+        "第一财经": 0,
+        "新浪搜索": 0,
+        "东方财富搜索": 0,
+        "新浪财经首页": 0,
+        "东方财富首页": 2,
+        "界面新闻首页": 0,
+        "俄罗斯卫星通讯社首页": 0,
+        "360新闻": 10,
+        "今日头条": 0
+      },
+      "total": 3,
+      "entries": [
+        {
+          "headline": "马斯克旗下SpaceX上市计划调整引发158亿美元热潮,特斯拉成交易榜首",
+          "content": "马斯克旗下SpaceX上市计划调整引发158亿美元热潮,特斯拉成交易榜首",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://finance.sina.com.cn/stock/usstock/summary/2026-06-03/doc-iniaavwy1045750.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "马斯克关联空壳公司在休斯顿郊外购地 550亿美元芯片厂或落地于此",
+          "content": "马斯克关联空壳公司在休斯顿郊外购地 550亿美元芯片厂或落地于此",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-03/doc-inhzzytf1332640.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "马斯克向全球招\"中文AI导师\" 不设固定上班时间",
+          "content": "马斯克向全球招\"中文AI导师\" 不设固定上班时间",
+          "source": "360新闻",
+          "date": "日期不详",
+          "url": "https://www.dzwww.com/xinwen/guojixinwen/gjsx/202606/t20260602_17799647.htm",
+          "quotes": [
+            "不设固定上班时间 马斯克向全球招"
+          ],
+          "occasion": "媒体采访"
+        }
+      ]
+    },
+    "孙宇晨": {
+      "en_name": "Justin Sun",
+      "path_stats": {
+        "TradeAlpha": 0,
+        "第一财经": 0,
+        "新浪搜索": 0,
+        "东方财富搜索": 0,
+        "新浪财经首页": 0,
+        "东方财富首页": 0,
+        "界面新闻首页": 0,
+        "俄罗斯卫星通讯社首页": 0,
+        "360新闻": 10,
+        "今日头条": 0
+      },
+      "total": 4,
+      "entries": [
+        {
+          "headline": "孙宇晨:B.AI破解AI时代金融协作困局",
+          "content": "孙宇晨:B.AI破解AI时代金融协作困局",
+          "source": "360新闻",
+          "date": "日期不详",
+          "url": "https://k.sina.com.cn/article_7857201856_1d45362c001906aqws.html",
+          "quotes": [
+            "B.AI破解AI时代金融协作困局 孙宇晨:B.AI破解AI时代金融协作困局"
+          ],
+          "occasion": "媒体采访"
+        },
+        {
+          "headline": "孙宇晨与特朗普家族\"炒\"币吵上法庭 投资机构表态愿出面调解",
+          "content": "孙宇晨与特朗普家族\"炒\"币吵上法庭 投资机构表态愿出面调解",
+          "source": "360新闻",
+          "date": "2026-04-23",
+          "url": "http://news.10jqka.com.cn/20260423/c676217328.shtml",
+          "quotes": [
+            "币吵上法庭 投资机构表态愿出面调解 孙宇晨与特朗普家族"
+          ],
+          "occasion": "媒体采访"
+        },
+        {
+          "headline": "孙宇晨起诉WLFI有续集:有机构愿意帮助庭外和解",
+          "content": "孙宇晨起诉WLFI有续集:有机构愿意帮助庭外和解",
+          "source": "360新闻",
+          "date": "日期不详",
+          "url": "https://www.360kuai.com/pc/9b08329f14a893aaf?cota=3&kuai_so=1&refer_scene=so_3&sign=360_da20e874",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "孙宇晨起诉与特朗普有关联的加密货币公司 指控其敲诈勒索",
+          "content": "孙宇晨起诉与特朗普有关联的加密货币公司 指控其敲诈勒索",
+          "source": "360新闻",
+          "date": "2026-04-22",
+          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-04-22/doc-inhvkqha6121627.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        }
+      ]
+    },
+    "黄仁勋": {
+      "en_name": "Jensen Huang",
+      "path_stats": {
+        "TradeAlpha": 0,
+        "第一财经": 0,
+        "新浪搜索": 0,
+        "东方财富搜索": 0,
+        "新浪财经首页": 1,
+        "东方财富首页": 2,
+        "界面新闻首页": 0,
+        "俄罗斯卫星通讯社首页": 0,
+        "360新闻": 10,
+        "今日头条": 0
+      },
+      "total": 5,
+      "entries": [
+        {
+          "headline": "黄仁勋:英伟达产能充足保交付,PC芯片新品及迭代路线落地",
+          "content": "黄仁勋:英伟达产能充足保交付,PC芯片新品及迭代路线落地",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://finance.sina.cn/tech/2026-06-03/detail-iniachnr0925358.d.html",
+          "quotes": [
+            "英伟达产能充足保交付,PC芯片新品及迭代路线落地 黄仁勋:英伟达产能充足保交付,PC芯片新品及迭代路线落地"
+          ],
+          "occasion": "媒体采访"
+        },
+        {
+          "headline": "博主:黄仁勋\"掀桌子了\",不会用Agent将被淘汰?",
+          "content": "博主:黄仁勋\"掀桌子了\",不会用Agent将被淘汰?",
+          "source": "360新闻",
+          "date": "日期不详",
+          "url": "https://kan.china.com/article/6418061_all.html",
+          "quotes": [
+            ",不会用Agent将被淘汰? 博主:黄仁勋"
+          ],
+          "occasion": "媒体采访"
+        },
+        {
+          "headline": "黄仁勋:别等了!英伟达暂不做RTX Spark掌机,全力押注AI PC重塑",
+          "content": "黄仁勋:别等了!英伟达暂不做RTX Spark掌机,全力押注AI PC重塑",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://finance.sina.cn/tech/2026-06-03/detail-iniachnu0939190.d.html",
+          "quotes": [
+            "别等了!英伟达暂不做RTX Spark掌机,全力押注AI PC重塑 黄仁勋:别等了!英伟达暂不做RTX Spark掌机,全力押注AI PC重塑"
+          ],
+          "occasion": "媒体采访"
+        },
+        {
+          "headline": "黄仁勋:铜缆在AI连接中不可替代!铜缆高速连接概念股涨停!华宝基金...",
+          "content": "黄仁勋:铜缆在AI连接中不可替代!铜缆高速连接概念股涨停!华宝基金...",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://finance.sina.com.cn/money/fund/etf/2026-06-03/doc-iniachnr0896566.shtml",
+          "quotes": [
+            "铜缆在AI连接中不可替代!铜缆高速连接概念股涨停!华宝基金... 黄仁勋:铜缆在AI连接中不可替代!铜缆高速连接概念股涨停!华宝基金..."
+          ],
+          "occasion": "媒体采访"
+        },
+        {
+          "headline": "黄仁勋点名:\"下一家万亿美元公司\"!一句话引爆→",
+          "content": "黄仁勋点名:\"下一家万亿美元公司\"!一句话引爆→",
+          "source": "360新闻",
+          "date": "2026-06-02",
+          "url": "http://news.cnr.cn/native/gd/20260602/t20260602_527645197.shtml",
+          "quotes": [
+            "!一句话引爆→ 黄仁勋点名:"
+          ],
+          "occasion": "媒体采访"
+        }
+      ]
+    },
+    "斯科特·贝森特": {
+      "en_name": "Scott Bessent",
+      "path_stats": {
+        "TradeAlpha": 0,
+        "第一财经": 0,
+        "新浪搜索": 0,
+        "东方财富搜索": 0,
+        "新浪财经首页": 0,
+        "东方财富首页": 0,
+        "界面新闻首页": 0,
+        "俄罗斯卫星通讯社首页": 0,
+        "360新闻": 10,
+        "今日头条": 0
+      },
+      "total": 4,
+      "entries": [
+        {
+          "headline": "CoinGapeMedia 2026年5月30日消息:美财长斯科特·贝森特称,美国...",
+          "content": "CoinGapeMedia 2026年5月30日消息:美财长斯科特·贝森特称,美国...",
+          "source": "360新闻",
+          "date": "2026-05-30",
+          "url": "https://finance.sina.com.cn/stock/usstock/summary/2026-05-30/doc-inhztcha6809703.shtml",
+          "quotes": [
+            "美国... CoinGapeMedia 2026年5月30日消息:美财长斯科特·贝森特称,美国..."
+          ],
+          "occasion": "媒体采访"
+        },
+        {
+          "headline": "美国财政部长斯科特·贝森特表示本周将再进行一或两次美联储下任...",
+          "content": "美国财政部长斯科特·贝森特表示本周将再进行一或两次美联储下任...",
+          "source": "360新闻",
+          "date": "2025-12-17",
+          "url": "https://www.fx678.com/C/20251217/202512170445061121.html",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "...美国重申支持但强调不会直接投钱】美国财政部长斯科特·贝森特周...",
+          "content": "...美国重申支持但强调不会直接投钱】美国财政部长斯科特·贝森特周...",
+          "source": "360新闻",
+          "date": "2025-10-03",
+          "url": "https://www.fx678.com/C/20251003/202510030429361126.html",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "美国财政部长斯科特·贝森特周一接受Washington Examiner采访时称,...",
+          "content": "美国财政部长斯科特·贝森特周一接受Washington Examiner采访时称,...",
+          "source": "360新闻",
+          "date": "2025-09-02",
+          "url": "https://www.fx678.com/C/20250902/202509020311111127.html",
+          "_no_quotes": true,
+          "occasion": "Washington Examiner采访时"
+        }
+      ]
+    },
+    "凯文·沃什": {
+      "en_name": "Kevin Warsh",
+      "path_stats": {
+        "TradeAlpha": 0,
+        "第一财经": 0,
+        "新浪搜索": 0,
+        "东方财富搜索": 0,
+        "新浪财经首页": 0,
+        "东方财富首页": 0,
+        "界面新闻首页": 0,
+        "俄罗斯卫星通讯社首页": 0,
+        "360新闻": 4,
+        "今日头条": 0
+      },
+      "total": 1,
+      "entries": [
+        {
+          "headline": "沃什首秀前夕非农出炉 美债市场加息押注迎来重磅检验",
+          "content": "沃什首秀前夕非农出炉 美债市场加息押注迎来重磅检验",
+          "source": "360新闻",
+          "date": "2026-06-01",
+          "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-06-01/doc-inhzwisr8508163.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        }
+      ]
+    },
+    "瑞达里欧": {
+      "en_name": "Ray Dalio",
+      "path_stats": {
+        "TradeAlpha": 0,
+        "第一财经": 0,
+        "新浪搜索": 0,
+        "东方财富搜索": 0,
+        "新浪财经首页": 0,
+        "东方财富首页": 0,
+        "界面新闻首页": 0,
+        "俄罗斯卫星通讯社首页": 0,
+        "360新闻": 10,
+        "今日头条": 0
+      },
+      "total": 7,
+      "entries": [
+        {
+          "headline": "瑞达利欧预警:美债、地缘、AI泡沫,三场风暴正在合力",
+          "content": "瑞达利欧预警:美债、地缘、AI泡沫,三场风暴正在合力",
+          "source": "360新闻",
+          "date": "日期不详",
+          "url": "https://k.sina.com.cn/article_5953190046_162d6789e0670338ce.html",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "国家外汇管理局局长朱鹤新会见桥水基金创始人瑞达利欧",
+          "content": "国家外汇管理局局长朱鹤新会见桥水基金创始人瑞达利欧",
+          "source": "360新闻",
+          "date": "日期不详",
+          "url": "https://finance.eastmoney.com/a/202509263524903081.html",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "桥水基金创始人瑞达利欧:我们应该对美债市场感到担忧",
+          "content": "桥水基金创始人瑞达利欧:我们应该对美债市场感到担忧",
+          "source": "360新闻",
+          "date": "日期不详",
+          "url": "https://finance.eastmoney.com/a/202505233412294296.html",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "桥水基金创始人瑞达利欧:美联储面临\"艰难的\"形势,不应当降息",
+          "content": "桥水基金创始人瑞达利欧:美联储面临\"艰难的\"形势,不应当降息",
+          "source": "360新闻",
+          "date": "2025-05-21",
+          "url": "http://stock.10jqka.com.cn/20250521/c668308276.shtml",
+          "quotes": [
+            "形势,不应当降息 桥水基金创始人瑞达利欧:美联储面临"
+          ],
+          "occasion": "媒体采访"
+        },
+        {
+          "headline": "瑞达利欧:穆迪仍然低估了美国国债面临的风险",
+          "content": "瑞达利欧:穆迪仍然低估了美国国债面临的风险",
+          "source": "360新闻",
+          "date": "日期不详",
+          "url": "https://finance.eastmoney.com/a/202505203408642247.html",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "瑞达利欧:美债风险甚至比穆迪所说的还要大",
+          "content": "瑞达利欧:美债风险甚至比穆迪所说的还要大",
+          "source": "360新闻",
+          "date": "2025-05-19",
+          "url": "https://finance.sina.com.cn/stock/usstock/c/2025-05-19/doc-inexcncu2022831.shtml?tj=cxvertical_pc_hp&tr=12",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "桥水瑞达利欧对话红杉沈南鹏,6月23日今日头条、抖音独家开播",
+          "content": "桥水瑞达利欧对话红杉沈南鹏,6月23日今日头条、抖音独家开播",
+          "source": "360新闻",
+          "date": "2026-06-23",
+          "url": "https://www.360kuai.com/pc/9a6c9e0cc0b56e980?cota=3&kuai_so=1&refer_scene=so_3&sign=360_da20e874",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        }
+      ]
+    }
+  }
+}
