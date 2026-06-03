@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-03 17:38:09",
+  "fetched_at": "2026-06-03 17:56:39",
   "people": {
     "特朗普": {
       "en_name": "Trump",
@@ -15,29 +15,13 @@
         "360新闻": 10,
         "今日头条": 0
       },
-      "total": 10,
+      "total": 8,
       "entries": [
-        {
-          "headline": "“罗生门”再现！伊方曝信息交换“已暂停数日” 特朗普坚称对话持续进行",
-          "content": "“罗生门”再现！伊方曝信息交换“已暂停数日” 特朗普坚称对话持续进行",
-          "source": "东方财富首页",
-          "date": "日期不详",
-          "_no_quotes": true,
-          "occasion": "媒体采访时"
-        },
-        {
-          "headline": "中东突传大消息 美伊开火！特朗普发声！油价直线拉升！",
-          "content": "中东突传大消息 美伊开火！特朗普发声！油价直线拉升！",
-          "source": "东方财富首页",
-          "date": "日期不详",
-          "_no_quotes": true,
-          "occasion": "媒体采访时"
-        },
         {
           "headline": "特朗普：一周内与伊朗达成协议",
           "content": "特朗普：一周内与伊朗达成协议",
           "source": "东方财富首页",
-          "date": "2026-06-02",
+          "date": "日期不详",
           "quotes": [
             "一周内与伊朗达成协议 特朗普：一周内与伊朗达成协议"
           ],
@@ -75,15 +59,6 @@
           "occasion": "媒体采访"
         },
         {
-          "headline": "消息人士:特朗普施压伊朗要求作出更明确的核承诺",
-          "content": "消息人士:特朗普施压伊朗要求作出更明确的核承诺",
-          "source": "360新闻",
-          "date": "2026-06-03",
-          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-03/doc-iniachnr0953814.shtml",
-          "_no_quotes": true,
-          "occasion": "媒体采访时"
-        },
-        {
           "headline": "白宫记协晚宴改期至7月特朗普称计划出席",
           "content": "白宫记协晚宴改期至7月特朗普称计划出席",
           "source": "360新闻",
@@ -102,15 +77,22 @@
           "occasion": "媒体采访时"
         },
         {
-          "headline": "特朗普还是签了,曾忧心\"让中国领先\"",
-          "content": "特朗普还是签了,曾忧心\"让中国领先\"",
+          "headline": "特朗普否认美伊对话已暂停数日",
+          "content": "特朗普否认美伊对话已暂停数日",
           "source": "360新闻",
           "date": "2026-06-03",
-          "url": "https://finance.sina.com.cn/wm/2026-06-03/doc-iniacaes2521328.shtml",
-          "quotes": [
-            "特朗普还是签了,曾忧心"
-          ],
-          "occasion": "媒体采访"
+          "url": "http://www.xinhuanet.com/20260603/22bceca1a31b415b94a441327cc4a042/c.html",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
+        },
+        {
+          "headline": "消息人士:特朗普施压伊朗要求作出更明确的核承诺",
+          "content": "消息人士:特朗普施压伊朗要求作出更明确的核承诺",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-03/doc-iniachnr0953814.shtml",
+          "_no_quotes": true,
+          "occasion": "媒体采访时"
         }
       ]
     },
@@ -128,26 +110,8 @@
         "360新闻": 10,
         "今日头条": 0
       },
-      "total": 3,
+      "total": 1,
       "entries": [
-        {
-          "headline": "马斯克旗下SpaceX上市计划调整引发158亿美元热潮,特斯拉成交易榜首",
-          "content": "马斯克旗下SpaceX上市计划调整引发158亿美元热潮,特斯拉成交易榜首",
-          "source": "360新闻",
-          "date": "2026-06-03",
-          "url": "https://finance.sina.com.cn/stock/usstock/summary/2026-06-03/doc-iniaavwy1045750.shtml",
-          "_no_quotes": true,
-          "occasion": "媒体采访时"
-        },
-        {
-          "headline": "马斯克关联空壳公司在休斯顿郊外购地 550亿美元芯片厂或落地于此",
-          "content": "马斯克关联空壳公司在休斯顿郊外购地 550亿美元芯片厂或落地于此",
-          "source": "360新闻",
-          "date": "2026-06-03",
-          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-03/doc-inhzzytf1332640.shtml",
-          "_no_quotes": true,
-          "occasion": "媒体采访时"
-        },
         {
           "headline": "马斯克向全球招\"中文AI导师\" 不设固定上班时间",
           "content": "马斯克向全球招\"中文AI导师\" 不设固定上班时间",
@@ -203,7 +167,7 @@
           "headline": "孙宇晨起诉WLFI有续集:有机构愿意帮助庭外和解",
           "content": "孙宇晨起诉WLFI有续集:有机构愿意帮助庭外和解",
           "source": "360新闻",
-          "date": "日期不详",
+          "date": "2026-04-23 12:57",
           "url": "https://www.360kuai.com/pc/9b08329f14a893aaf?cota=3&kuai_so=1&refer_scene=so_3&sign=360_da20e874",
           "_no_quotes": true,
           "occasion": "媒体采访时"
@@ -233,7 +197,7 @@
         "360新闻": 10,
         "今日头条": 0
       },
-      "total": 5,
+      "total": 4,
       "entries": [
         {
           "headline": "黄仁勋:英伟达产能充足保交付,PC芯片新品及迭代路线落地",
@@ -243,17 +207,6 @@
           "url": "https://finance.sina.cn/tech/2026-06-03/detail-iniachnr0925358.d.html",
           "quotes": [
             "英伟达产能充足保交付,PC芯片新品及迭代路线落地 黄仁勋:英伟达产能充足保交付,PC芯片新品及迭代路线落地"
-          ],
-          "occasion": "媒体采访"
-        },
-        {
-          "headline": "博主:黄仁勋\"掀桌子了\",不会用Agent将被淘汰?",
-          "content": "博主:黄仁勋\"掀桌子了\",不会用Agent将被淘汰?",
-          "source": "360新闻",
-          "date": "日期不详",
-          "url": "https://kan.china.com/article/6418061_all.html",
-          "quotes": [
-            ",不会用Agent将被淘汰? 博主:黄仁勋"
           ],
           "occasion": "媒体采访"
         },
@@ -269,6 +222,17 @@
           "occasion": "媒体采访"
         },
         {
+          "headline": "黄仁勋\"钦点\"下一家万亿美元公司;科创半导体ETF华夏(588170)...",
+          "content": "黄仁勋\"钦点\"下一家万亿美元公司;科创半导体ETF华夏(588170)...",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://www.360kuai.com/pc/9022072a3870ae0fd?cota=3&kuai_so=1&refer_scene=so_3&sign=360_da20e874",
+          "quotes": [
+            "下一家万亿美元公司;科创半导体ETF华夏(588170)... 黄仁勋"
+          ],
+          "occasion": "媒体采访"
+        },
+        {
           "headline": "黄仁勋:铜缆在AI连接中不可替代!铜缆高速连接概念股涨停!华宝基金...",
           "content": "黄仁勋:铜缆在AI连接中不可替代!铜缆高速连接概念股涨停!华宝基金...",
           "source": "360新闻",
@@ -276,17 +240,6 @@
           "url": "https://finance.sina.com.cn/money/fund/etf/2026-06-03/doc-iniachnr0896566.shtml",
           "quotes": [
             "铜缆在AI连接中不可替代!铜缆高速连接概念股涨停!华宝基金... 黄仁勋:铜缆在AI连接中不可替代!铜缆高速连接概念股涨停!华宝基金..."
-          ],
-          "occasion": "媒体采访"
-        },
-        {
-          "headline": "黄仁勋点名:\"下一家万亿美元公司\"!一句话引爆→",
-          "content": "黄仁勋点名:\"下一家万亿美元公司\"!一句话引爆→",
-          "source": "360新闻",
-          "date": "2026-06-02",
-          "url": "http://news.cnr.cn/native/gd/20260602/t20260602_527645197.shtml",
-          "quotes": [
-            "!一句话引爆→ 黄仁勋点名:"
           ],
           "occasion": "媒体采访"
         }
