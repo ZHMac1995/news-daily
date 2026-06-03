@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-03 18:07:44",
+  "fetched_at": "2026-06-03 18:10:17",
   "people": {
     "特朗普": {
       "en_name": "Trump",
@@ -15,7 +15,7 @@
         "360新闻": 10,
         "今日头条": 0
       },
-      "total": 7,
+      "total": 6,
       "entries": [
         {
           "headline": "特朗普：一周内与伊朗达成协议",
@@ -39,15 +39,6 @@
           "occasion": "媒体采访"
         },
         {
-          "headline": "伯尼·桑德斯称特朗普终于承认人工智能风险真实存在,警告行政命令...",
-          "content": "伯尼·桑德斯称特朗普终于承认人工智能风险真实存在,警告行政命令...",
-          "source": "360新闻",
-          "date": "2026-06-03",
-          "url": "https://finance.sina.com.cn/stock/usstock/summary/2026-06-03/doc-iniacnus0934336.shtml",
-          "_no_quotes": true,
-          "occasion": "媒体采访时"
-        },
-        {
           "headline": "综合消息丨美伊再次相互打击 特朗普否认谈判暂停",
           "content": "综合消息丨美伊再次相互打击 特朗普否认谈判暂停",
           "source": "360新闻",
@@ -68,11 +59,11 @@
           "occasion": "媒体采访"
         },
         {
-          "headline": "特朗普的新关税壁垒:药品价格百分百上涨,美国家庭面临700美元支出...",
-          "content": "特朗普的新关税壁垒:药品价格百分百上涨,美国家庭面临700美元支出...",
+          "headline": "白宫记协晚宴改期至7月特朗普称计划出席",
+          "content": "白宫记协晚宴改期至7月特朗普称计划出席",
           "source": "360新闻",
           "date": "2026-06-03",
-          "url": "https://finance.sina.com.cn/stock/usstock/summary/2026-06-03/doc-iniacnuq4119756.shtml",
+          "url": "https://news.cctv.com/2026/06/03/ARTIY1CMSBbGGQeQ5J9x0Zta260603.shtml",
           "_no_quotes": true,
           "occasion": "媒体采访时"
         },
@@ -188,25 +179,18 @@
         "360新闻": 10,
         "今日头条": 0
       },
-      "total": 4,
+      "total": 3,
       "entries": [
         {
-          "headline": "黄仁勋一句话价值600亿美元!Marvell股价暴涨超32% 网红:不敢买光...",
-          "content": "黄仁勋一句话价值600亿美元!Marvell股价暴涨超32% 网红:不敢买光...",
+          "headline": "黄仁勋:英伟达产能充足保交付,PC芯片新品及迭代路线落地",
+          "content": "黄仁勋:英伟达产能充足保交付,PC芯片新品及迭代路线落地",
           "source": "360新闻",
           "date": "2026-06-03",
-          "url": "https://finance.sina.cn/tech/2026-06-03/detail-iniacaet0975888.d.html",
-          "_no_quotes": true,
-          "occasion": "媒体采访时"
-        },
-        {
-          "headline": "黄仁勋首谈在北京喝豆汁体验:你们不知道我有多享受",
-          "content": "黄仁勋首谈在北京喝豆汁体验:你们不知道我有多享受",
-          "source": "360新闻",
-          "date": "2026-06-03",
-          "url": "https://finance.sina.com.cn/tech/roll/2026-06-03/doc-iniachnq2447981.shtml",
-          "_no_quotes": true,
-          "occasion": "媒体采访时"
+          "url": "https://finance.sina.cn/tech/2026-06-03/detail-iniachnr0925358.d.html",
+          "quotes": [
+            "英伟达产能充足保交付,PC芯片新品及迭代路线落地 黄仁勋:英伟达产能充足保交付,PC芯片新品及迭代路线落地"
+          ],
+          "occasion": "媒体采访"
         },
         {
           "headline": "黄仁勋:别等了!英伟达暂不做RTX Spark掌机,全力押注AI PC重塑",
@@ -329,7 +313,7 @@
         "360新闻": 10,
         "今日头条": 0
       },
-      "total": 7,
+      "total": 6,
       "entries": [
         {
           "headline": "瑞达利欧预警:美债、地缘、AI泡沫,三场风暴正在合力",
@@ -357,17 +341,6 @@
           "url": "https://finance.eastmoney.com/a/202505233412294296.html",
           "_no_quotes": true,
           "occasion": "媒体采访时"
-        },
-        {
-          "headline": "桥水基金创始人瑞达利欧:美联储面临\"艰难的\"形势,不应当降息",
-          "content": "桥水基金创始人瑞达利欧:美联储面临\"艰难的\"形势,不应当降息",
-          "source": "360新闻",
-          "date": "2025-05-21",
-          "url": "http://stock.10jqka.com.cn/20250521/c668308276.shtml",
-          "quotes": [
-            "形势,不应当降息 桥水基金创始人瑞达利欧:美联储面临"
-          ],
-          "occasion": "媒体采访"
         },
         {
           "headline": "瑞达利欧:穆迪仍然低估了美国国债面临的风险",
