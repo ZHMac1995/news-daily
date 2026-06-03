@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-03 17:56:39",
+  "fetched_at": "2026-06-03 18:00:54",
   "people": {
     "特朗普": {
       "en_name": "Trump",
@@ -77,20 +77,22 @@
           "occasion": "媒体采访时"
         },
         {
+          "headline": "特朗普还是签了,曾忧心\"让中国领先\"",
+          "content": "特朗普还是签了,曾忧心\"让中国领先\"",
+          "source": "360新闻",
+          "date": "2026-06-03",
+          "url": "https://finance.sina.com.cn/wm/2026-06-03/doc-iniacaes2521328.shtml",
+          "quotes": [
+            "特朗普还是签了,曾忧心"
+          ],
+          "occasion": "媒体采访"
+        },
+        {
           "headline": "特朗普否认美伊对话已暂停数日",
           "content": "特朗普否认美伊对话已暂停数日",
           "source": "360新闻",
           "date": "2026-06-03",
           "url": "http://www.xinhuanet.com/20260603/22bceca1a31b415b94a441327cc4a042/c.html",
-          "_no_quotes": true,
-          "occasion": "媒体采访时"
-        },
-        {
-          "headline": "消息人士:特朗普施压伊朗要求作出更明确的核承诺",
-          "content": "消息人士:特朗普施压伊朗要求作出更明确的核承诺",
-          "source": "360新闻",
-          "date": "2026-06-03",
-          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-06-03/doc-iniachnr0953814.shtml",
           "_no_quotes": true,
           "occasion": "媒体采访时"
         }
