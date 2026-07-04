@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>新闻日报 - &#x8FD0;&#x884C;&#x72B6;&#x6001;</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  background: #0d1117;
+  color: #c9d1d9;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+h1 { font-size:22px; margin-bottom:4px; color:#e6edf3; }
+p.subtitle { color:#8b949e; font-size:14px; margin-bottom:20px; }
+a { color:#58a6ff; text-decoration:none; }
+a:hover { text-decoration:underline; }
+
+/* 概览数字 */
+.overview {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+.ov-box {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 14px 18px;
+  flex: 1;
+  min-width: 100px;
+}
+.ov-box .num { font-size: 26px; font-weight: 700; color: #e6edf3; }
+.ov-box .label { font-size: 12px; color: #8b949e; margin-top: 2px; }
+
+/* 出报日历 */
+.cal-row {
+  background: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+  transition: all 0.15s;
+}
+.cal-row:hover {
+  border-color: #30363d;
+  background: #1c2128;
+}
+.cal-date {
+  font-size: 0.95em;
+  font-weight: 600;
+  color: #e6edf3;
+  margin-bottom: 8px;
+}
+.cal-date .wd {
+  margin-left: 6px;
+  color: #8b949e;
+  font-weight: 400;
+  font-size: 0.85em;
+}
+.cal-cols {
+  display: flex;
+  gap: 8px;
+}
+.cal-cell {
+  flex: 1;
+  display: block;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.82em;
+  font-weight: 500;
+}
+a.cal-cell.ok {
+  text-decoration: none;
+}
+a.cal-cell.ok.morn-color {
+  background: #1f6feb15;
+  border: 1px solid #1f6feb30;
+  color: #58a6ff;
+}
+a.cal-cell.ok.even-color {
+  background: #da363315;
+  border: 1px solid #da363330;
+  color: #ff7b72;
+}
+a.cal-cell.ok:hover {
+  filter: brightness(1.3);
+}
+span.cal-cell.miss {
+  background: #21262d;
+  border: 1px dashed #30363d;
+  color: #484f58;
+}
+
+.footer { margin-top: 20px; color: #484f58; font-size: 12px; }
+</style>
+</head>
+<body>
+<h1>&#x1F4F0; &#x65B0;&#x95FB;&#x65E5;&#x62A5; &#x8FD0;&#x884C;&#x72B6;&#x6001;</h1>
+<p class="subtitle"><a href="./">&#x2190; &#x8FD4;&#x56DE;&#x9996;&#x9875;</a></p>
+
+<div class="overview">
+  <div class="ov-box">
+    <div class="num">34</div>
+    <div class="label">累计出报天数</div>
+  </div>
+  <div class="ov-box">
+    <div class="num">14<span style="font-size:14px;color:#8b949e">/34</span></div>
+    <div class="label">早报已出（41%）</div>
+  </div>
+  <div class="ov-box">
+    <div class="num">14<span style="font-size:14px;color:#8b949e">/34</span></div>
+    <div class="label">晚报已出（41%）</div>
+  </div>
+  <div class="ov-box">
+    <div class="num">28587</div>
+    <div class="label">累计新闻条数</div>
+  </div>
+</div>
+
+<div class="cal-row">
+  <div class="cal-date">2026-07-04<span class="wd">周六</span></div>
+  <div class="cal-cols"><a class="cal-cell ok morn-color" href="新闻日报_20260704_morning.html">早报 270条</a><a class="cal-cell ok even-color" href="新闻日报_20260704_evening.html">晚报 1739条</a></div>
+</div>
+    <div class="cal-row">
+  <div class="cal-date">2026-07-03<span class="wd">周五</span></div>
+  <div class="cal-cols"><a class="cal-cell ok morn-color" href="新闻日报_20260703_morning.html">早报 352条</a><a class="cal-cell ok even-color" href="新闻日报_20260703_evening.html">晚报 1846条</a></div>
+</div>
+    <div class="cal-row">
+  <div class="cal-date">2026-07-02<span class="wd">周四</span></div>
+  <div class="cal-cols"><a class="cal-cell ok morn-color" href="新闻日报_20260702_morning.html">早报 294条</a><a class="cal-cell ok even-color" href="新闻日报_20260702_evening.html">晚报 1485条</a></div>
+</div>
+    <div class="cal-row">
+  <div class="cal-date">2026-07-01<span class="wd">周三</span></div>
+  <div class="cal-cols"><a class="cal-cell ok morn-color" href="新闻日报_20260701_morning.html">早报 227条</a><a class="cal-cell ok even-color" href="新闻日报_20260701_evening.html">晚报 1101条</a></div>
+</div>
+    <div class="cal-row">
+  <div class="cal-date">2026-06-30<span class="wd">周二</span></div>
+  <div class="cal-cols"><a class="cal-cell ok morn-color" href="新闻日报_20260630_morning.html">早报 307条</a><a class="cal-cell ok even-color" href="新闻日报_20260630_evening.html">晚报 1197条</a></div>
+</div>
+    <div class="cal-row">
+  <div class="cal-date">2026-06-29<span class="wd">周一</span></div>
+  <div class="cal-cols"><a class="cal-cell ok morn-color" href="新闻日报_20260629_morning.html">早报 95条</a><a class="cal-cell ok even-color" href="新闻日报_20260629_evening.html">晚报 1448条</a></div>
+</div>
+    <div class="cal-row">
+  <div class="cal-date">2026-06-28<span class="wd">周日</span></div>
+  <div class="cal-cols"><a class="cal-cell ok morn-color" href="新闻日报_20260628_morning.html">早报 124条</a><a class="cal-cell ok even-color" href="新闻日报_20260628_evening.html">晚报 1953条</a></div>
+</div>
+    <div class="cal-row">
+  <div class="cal-date">2026-06-27<span class="wd">周六</span></div>
+  <div class="cal-cols"><a class="cal-cell ok morn-color" href="新闻日报_20260627_morning.html">早报 409条</a><a class="cal-cell ok even-color" href="新闻日报_20260627_evening.html">晚报 2513条</a></div>
+</div>
+    <div class="cal-row">
+  <div class="cal-date">2026-06-26<span class="wd">周五</span></div>
+  <div class="cal-cols"><a class="cal-cell ok morn-color" href="新闻日报_20260626_morning.html">早报 406条</a><a class="cal-cell ok even-color" href="新闻日报_20260626_evening.html">晚报 2760条</a></div>
+</div>
+    <div class="cal-row">
+  <div class="cal-date">2026-06-25<span class="wd">周四</span></div>
+  <div class="cal-cols"><a class="cal-cell ok morn-color" href="新闻日报_20260625_morning.html">早报 342条</a><a class="cal-cell ok even-color" href="新闻日报_20260625_evening.html">晚报 2249条</a></div>
+</div>
+    <div class="cal-row">
+  <div class="cal-date">2026-06-24<span class="wd">周三</span></div>
+  <div class="cal-cols"><a class="cal-cell ok morn-color" href="新闻日报_20260624_morning.html">早报 416条</a><a class="cal-cell ok even-color" href="新闻日报_20260624_evening.html">晚报 1735条</a></div>
+</div>
+    <div class="cal-row">
+  <div class="cal-date">2026-06-23<span class="wd">周二</span></div>
+  <div class="cal-cols"><a class="cal-cell ok morn-color" href="新闻日报_20260623_morning.html">早报 472条</a><a class="cal-cell ok even-color" href="新闻日报_20260623_evening.html">晚报 1276条</a></div>
+</div>
+    <div class="cal-row">
+  <div class="cal-date">2026-06-22<span class="wd">周一</span></div>
+  <div class="cal-cols"><a class="cal-cell ok morn-color" href="新闻日报_20260622_morning.html">早报 114条</a><a class="cal-cell ok even-color" href="新闻日报_20260622_evening.html">晚报 1252条</a></div>
+</div>
+    <div class="cal-row">
+  <div class="cal-date">2026-06-21<span class="wd">周日</span></div>
+  <div class="cal-cols"><a class="cal-cell ok morn-color" href="新闻日报_20260621_morning.html">早报 114条</a><a class="cal-cell ok even-color" href="新闻日报_20260621_evening.html">晚报 2091条</a></div>
+</div>
+
+<p class="footer">&#x66F4;&#x65B0;&#x65F6;&#x95F4;: 2026-07-04 21:00:52 | &#x6570;&#x636E;&#x6765;&#x6E90;: news-daily GitHub Pages</p>
+</body>
+</html>
